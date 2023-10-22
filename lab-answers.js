@@ -32,18 +32,26 @@ const plantee = ["Plantee", "plant",  5000 , "Mordor"]
 const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
 const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
-//1
+//Q1
 plantee[2] ++;
 console.log(plantee);
 
-//2
+//Q2
 wolfy[3] = "Gotham City";
 console.log(wolfy);
 
-//3
+//Q3
 dart.push("Hawkins");
 console.log(dart);
 
-//4
+//Q4
 wolfy.splice(0, 1, "Gameboy");
 console.log(wolfy);
+
+
+//Yell at the Ninja Turtles
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+for (let i = 0; i<ninjaTurtles.length; i++)
+for (i of ninjaTurtles) {
+    console.log(i.toUpperCase());
+}
