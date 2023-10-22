@@ -114,3 +114,36 @@ console.log(favMovies);
 console.log(favMovies.indexOf("Fast and Furious")); //We got the index of the element from the original array
 
 //We were able to use 'const' instead of 'let' because even though the array cannot be re-assigned but the content of the array can be changed.
+
+
+//Where is Waldo
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                      ["Lucinda", "Jacc", "Neff", "Snoop"],
+                      ["Petunia", ["Baked Goods", "Waldo"]]];
+
+//convert to 1-D array
+                      let newWaldo = whereIsWaldo.flat(2);
+                      console.log(newWaldo);
+// Remove Eggbert
+console.log(newWaldo.indexOf("Eggbert"));
+console.log(newWaldo.splice(2, 1));
+
+//Change "Neff" to "No One"
+console.log(newWaldo.indexOf("Neff"));
+newWaldo[4] = "No One";
+console.log(newWaldo);
+
+console.log(newWaldo.Waldo);
+
+
+
+
+
+
+
+
+
+//Excited Kitten
+
+
+//Find the Median
