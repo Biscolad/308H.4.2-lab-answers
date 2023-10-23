@@ -147,7 +147,6 @@ for (let i = 0; i<20; i++) {
 }
 
 
-
 //Find the Median
 const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 nums.sort();
@@ -156,11 +155,43 @@ let median = nums[Math.floor(nums.length/2)];
 console.log(median);
 
 
-
-
-
 //Hungry for More?
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "Per Scholas hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
 
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  //Remove kristynsShoe
+  let kristynsShoe = kristynsCloset.splice(0, 1);
+  console.log(kristynsShoe);
+//Add to thomsCloset
+  console.log(thomsCloset[2].push(kristynsShoe));
+  console.log(thomsCloset);
 
 
 
