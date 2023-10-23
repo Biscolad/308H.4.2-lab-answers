@@ -136,14 +136,51 @@ console.log(newWaldo);
 console.log(newWaldo.Waldo);
 
 
-
-
-
-
-
-
-
 //Excited Kitten
+const excitedKitten = ["...human... why you taking pictures of me...?", "...the catnip made me do it...", "...why does the red dot always get away...?"];
+for (let i = 0; i<20; i++) {
+    console.log("Love me, pet me! HSSSSSS!");
+    if (i%2 === 0) {
+        let randomNumber = Math.floor(Math.random() * excitedKitten.length);
+        console.log(excitedKitten[randomNumber]);
+    }
+}
+
 
 
 //Find the Median
+// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+
+
+
+
+//Hungry for More?
+
+
+
+
+
+//Alien Attire
+
+
+
+
+//Dress Us Up
+
+
+
+
+
+//Dirty Laundry
+
+
+
+
+
+//Inventory
+
+
+
+
+
